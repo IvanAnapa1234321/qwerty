@@ -1,0 +1,32 @@
+.block {
+    width: auto;
+    background-color: rgb(196, 215, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.block-1 {
+    display: flex;
+    justify-content: center;
+}
+.block-meny {
+    display: flex;
+    justify-content: space-around ;
+    background-color: rgb(43, 255, 0);
+}
+.block-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: chocolate;
+    
+}
+#block-meny-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.block-podval {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
