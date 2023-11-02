@@ -1,18 +1,24 @@
+body {
+    background-color: #f7f7f7;
+}
+
 .block {
     display: flex;
     flex-flow: column;
     
 }
 .block-1 {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 70px;
-    margin-right: 70px;
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 20px 70px;
 }
 .block-1>img {
-    margin-right: 1200px;
+    float: left;
 }
-.block-1>button {
+.forma {
+    float: right;
+}
+.block-1 button {
     color: brown;
     background: #46d782;
     border: 0;
@@ -20,7 +26,7 @@
     font-size: 16px;
     border-radius: 5px;
 }
-.block-1>input {
+.block-1 input {
     border: 1px solid #bdbdbd;
     border-radius: 5px;
     padding: 10px;
@@ -35,16 +41,17 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.block-meny>a {
+.block-meny a {
     font-size: small;
     text-decoration: none;
+
 }  
 .block-content {
     display: flex;
-    
-
+    justify-content: space-between;
+    margin: 30px 70px;
 }
- .qwerty>button {
+ .qwerty button {
     color: #fff;
     background: #46d782;
     border: 0;
@@ -52,11 +59,18 @@
     font-size: 16px;
     border-radius: 5px;
 }
- .qwerty1{
+ .qwerty1 {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
  }
- .qwerty1>img {
-    margin-left: 500px;
- }
+
+
+
+
+	
+.clearfix:before,
+.clearfix:after {
+  content: ".";    
+  display: block;    
+  height: 0;    
+  overflow: hidden;        
+}
