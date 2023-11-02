@@ -22,15 +22,21 @@ body {
     color: brown;
     background: #46d782;
     border: 0;
-    padding: 8px 16px;
+    padding: 11px 16px;
     font-size: 16px;
     border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: inline-block;
 }
 .block-1 input {
     border: 1px solid #bdbdbd;
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: inline-block;
 }
 .block-meny {
     display: flex;
@@ -59,6 +65,22 @@ body {
     font-size: 16px;
     border-radius: 5px;
 }
+.qwerty p:first-child {
+    color: #0026ff
+}
+.qwerty p {
+    
+}
+
+h1 {
+    color: red;
+}
+
+h1 span {
+    color: #54e74e;
+}
+
+
  .qwerty1 {
     display: flex;
  }
